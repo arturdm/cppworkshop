@@ -19,7 +19,7 @@ void invert(AndroidBitmapInfo* info, void* pixels) {
     int pixelCount = info->width * info->height;
     uint32_t* pixel = (uint32_t*) pixels;
 
-    for (int index = 0; index < pixelCount; ++pixel) {
+    for (int index = 0; index < pixelCount; ++pixel, ++index) {
         invertPixel(pixel);
     }
 }
