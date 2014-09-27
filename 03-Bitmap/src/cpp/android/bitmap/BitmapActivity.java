@@ -8,7 +8,7 @@ import android.widget.ImageView;
 
 public class BitmapActivity extends Activity {
 
-    private ColorInverter inverted = new JavaColorInverter();
+    private ColorInverter inverted = new NativeColorInverter();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

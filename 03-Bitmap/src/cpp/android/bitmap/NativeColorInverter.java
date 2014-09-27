@@ -4,9 +4,11 @@ import android.graphics.Bitmap;
 
 public class NativeColorInverter implements ColorInverter {
 
-	@Override
-	public void invertColorsIn(Bitmap bitmap) {
-		// TODO Implement native color inversion
+	static {
+		System.loadLibrary("app");
 	}
+	
+	@Override
+	public native void invertColorsIn(Bitmap bitmap);
 
 }
