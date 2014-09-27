@@ -1,5 +1,7 @@
 # C/C++ in Android Apps Workshop
 
+Branch *master* contains solutions to all of the exercises. If you want to get the unsolved version please checkout *unsolved* branch.
+
 You can import those projects using Eclipse as *Existing Android Code into Workspace*.
 
 We will be using a certain set of tools that are provided in the list below. It's necessary for everyone to have a proper set-up (tested on Windows 7 64-bit but it should work fine on Linux and probably on Mac OS X too).
